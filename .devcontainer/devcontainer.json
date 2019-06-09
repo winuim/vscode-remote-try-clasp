@@ -5,5 +5,9 @@
     "extensions": [
         "dbaeumer.vscode-eslint"
     ],
-    "postCreateCommand": "yarn install"
+    "postCreateCommand": "yarn install",
+    "runArgs": [
+        "-v",
+        "${env:HOME}/.clasprc.json:/root/.clasprc.json"
+    ]
 }

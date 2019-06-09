@@ -2,13 +2,14 @@
   "name": "docker_web_app",
   "version": "1.0.0",
   "description": "Node.js on Docker",
-  "author": "First Last <first.last@example.com>",
+  "author": "Yohei Uema <winuim@gmai.com>",
   "main": "server.js",
   "private": true,
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
+    "@types/google-apps-script": "0.0.53",
     "express": "^4.16.1"
   }
 }
