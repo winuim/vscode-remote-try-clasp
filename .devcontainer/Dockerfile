@@ -25,11 +25,8 @@ RUN rm -rf /opt/yarn-* \
    && apt-get update \
    && apt-get -y install --no-install-recommends yarn
 
-# Install eslint & Clasp
-RUN npm install -g eslint @google/clasp
-
-# Install Clasp-Typescript
-RUN npm install -S @types/google-apps-script
+# Install eslint & clasp
+RUN yarn global add eslint @google/clasp
 
 # Clean up
 RUN apt-get autoremove -y \

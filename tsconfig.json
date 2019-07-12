@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "lib": [
+            "esnext"
+        ],
+        "experimentalDecorators": true,
+        "outDir": "out",
+        "sourceMap": true
+    },
+    "include": [
+        "src/**/*",
+        "test/**/*"
+    ]
+}
