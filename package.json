@@ -10,8 +10,7 @@
   },
   "dependencies": {
     "@types/google-apps-script": "0.0.54",
-    "express": "^4.16.1",
-    "ts-node": "^8.3.0"
+    "express": "^4.16.1"
   },
   "devDependencies": {
     "@types/mocha": "^5.2.7",
@@ -20,6 +19,7 @@
     "mocha": "^6.1.4",
     "power-assert": "^1.6.1",
     "prettier": "^1.18.2",
+    "ts-node": "^8.3.0",
     "tslint": "^5.18.0",
     "tslint-plugin-prettier": "^2.0.1",
     "typescript": "^3.5.3"

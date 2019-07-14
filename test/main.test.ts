@@ -6,4 +6,4 @@ describe("main()", () => {
     it("hello world!", () => {
         assert(main(message) === "Hello world!");
     });
-}); 
+});

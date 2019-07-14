@@ -2,7 +2,9 @@ const greeter = (person: string) => {
     return `Hello, ${person}!`;
 };
 
-function testGreeter() {
+export function testGreeter(): string {
     const user = "Grant";
-    Logger.log(greeter(user));
+    const ret = greeter(user);
+    console.log({ ret });
+    return ret;
 }
